@@ -48,4 +48,35 @@
 		background-color: rgba(255, 255, 255, 0.2)
 		border: 2px solid black
 		
+.about
+	padding: 70px 0
+	min-height: 750px
+	&_header
+		+RM400
+		font-size: 33px
+		text-align: center
+		letter-spacing: 0.1em
+		color: #000000
+		&_frame
+			position: relative
+			background-color: #FFFFFF
+			border: 3px solid #000000
+			width: 331px
+			height: 60px
+			z-index: 2
+	&_descr
+		+OS400
+		font-size: 24px
+		margin: 64px 51px 66px 110px
+		> p
+			margin-bottom: 40px
+			&:nth-child(4)
+				margin-bottom: 0
+		&_frame
+			position: absolute
+			top: -30px
+			width: 828px
+			height: 434px
+			border: 3px solid #000000
+			z-index: 1
 		
